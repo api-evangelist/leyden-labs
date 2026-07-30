@@ -1,22 +1,53 @@
 aid: leyden-labs
 name: Leyden Labs
-description: 'Leyden Labs is a company surfaced as a portfolio company of gv, softbank-vision-fund and
-  added to the API Evangelist network as a stub for enrichment. Sector: life-sciences. This profile is
-  a lead awaiting the enrichment pipeline.'
+description: 'Leyden Labs is a clinical-stage biotechnology company headquartered in Leiden,
+  The Netherlands, with a regional office in Singapore, developing intranasal antibody products
+  that protect people against known and newly emerging respiratory viruses. Its approach pairs
+  mucosal immunity — delivering antibodies directly into the nasal passages, the gateway
+  respiratory viruses use to enter the body — with broad protection, by targeting conserved
+  regions of viral proteins so a single product can cover circulating strains and future
+  variants. Its lead program, PanFlu, is an intranasal antibody candidate in clinical trials
+  derived from CR9114, among the most broadly neutralizing influenza antibodies identified to
+  date. Founded in 2021 by Koenraad Wiedhaup and Ronald Brus with founding scientist Jaap
+  Goudsmit, the company is backed by GV and the SoftBank Vision Fund alongside the European
+  Innovation Council Fund, the European Investment Bank and Invest-NL. Leyden Labs publishes
+  no public developer program, API, or SDK; this profile captures its public web, security and
+  identity surface for the API Evangelist network.'
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://leydenlabs.com/wp-content/uploads/2021/03/LL-diap-RGB.jpg
 url: https://raw.githubusercontent.com/api-evangelist/leyden-labs/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - gv
 - softbank-vision-fund
-x-tier: stub
-x-tier-reason: portfolio-lead
+x-tier: profiled
+x-tier-reason: portfolio-lead-no-public-api
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
 - Life Sciences
+- Biotechnology
+- Pharmaceuticals
+- Immunology
+- Infectious Disease
+- Vaccines
+- Antibodies
+- Respiratory Health
+- Clinical Trials
+- Netherlands
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -26,3 +57,30 @@ maintainers:
 common:
 - type: Website
   url: https://leydenlabs.com
+- type: Blog
+  url: https://leydenlabs.com/news
+- type: BlogRSS
+  url: https://leydenlabs.com/feed
+- type: Publications
+  url: https://leydenlabs.com/publications
+- type: Events
+  url: https://leydenlabs.com/events
+- type: Careers
+  url: https://leydenlabs.com/careers
+- type: PrivacyPolicy
+  url: https://leydenlabs.com/privacy
+- type: Contact
+  url: mailto:info@leydenlabs.com
+- type: LinkedIn
+  url: https://www.linkedin.com/company/leydenlabs/
+- type: YouTube
+  url: https://www.youtube.com/channel/UCovjgTDGBe1wURh6QXW9Qcw
+- type: DomainSecurity
+  url: security/leyden-labs-domain-security.yml
+- type: LLMsTxt
+  url: llms/leyden-labs-llms.txt
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
