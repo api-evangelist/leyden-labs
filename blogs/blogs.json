@@ -1,0 +1,35 @@
+{
+  "repo": "leyden-labs",
+  "feeds": [
+    {
+      "source": "https://leydenlabs.com/feed/",
+      "feed_url": "https://leydenlabs.com/feed/",
+      "title": "",
+      "saved": 0,
+      "method": "feed"
+    },
+    {
+      "source": "https://leydenlabs.com/news/feed/",
+      "feed_url": "https://leydenlabs.com/news/feed/",
+      "title": "",
+      "saved": 0,
+      "method": "feed"
+    },
+    {
+      "source": "https://leydenlabs.com",
+      "feed_url": "https://leydenlabs.com/feed/",
+      "title": "",
+      "saved": 0,
+      "method": "discovered"
+    },
+    {
+      "source": "https://leydenlabs.com/news",
+      "feed_url": "https://leydenlabs.com/news/feed/",
+      "title": "",
+      "saved": 0,
+      "method": "discovered"
+    }
+  ],
+  "post_count": 10,
+  "fetched": "2026-07-25T15:00:33Z"
+}
