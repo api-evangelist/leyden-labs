@@ -13,6 +13,17 @@ description: 'Leyden Labs is a clinical-stage biotechnology company headquartere
   Innovation Council Fund, the European Investment Bank and Invest-NL. Leyden Labs publishes
   no public developer program, API, or SDK; this profile captures its public web, security and
   identity surface for the API Evangelist network.'
+deliveryModel:
+  model: unknown
+  open_source: false
+  commercial: false
+  callable_host: false
+  label: Delivery model not determined — needs a product licence on record
+  confidence: low
+  source:
+  - none
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
